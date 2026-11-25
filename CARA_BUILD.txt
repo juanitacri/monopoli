@@ -1,0 +1,13 @@
+CARA MEMBUAT APK (tanpa install apa pun di PC)
+
+1. Buka https://github.com dan login/daftar (gratis).
+2. Buat repository baru (New repository), nama bebas, mis. "monopoli-indonesia".
+3. Klik "uploading an existing file", lalu drag SEMUA isi folder project ini
+   (termasuk folder .github, app, dan file gradle). Klik Commit changes.
+   Catatan: folder ".github" kadang tersembunyi; pastikan ikut ter-upload.
+4. Buka tab "Actions" -> workflow "Build APK" jalan otomatis (sekitar 3-5 menit).
+5. Setelah hijau, klik run tersebut -> bagian "Artifacts" -> download
+   "Monopoli-Indonesia-APK" (zip berisi app-debug.apk).
+6. Kirim APK ke HP, buka, izinkan "Install dari sumber tidak dikenal", lalu install.
+
+ALTERNATIF: buka folder ini di Android Studio -> Build > Build APK(s).
